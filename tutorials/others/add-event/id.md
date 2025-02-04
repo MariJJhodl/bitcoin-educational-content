@@ -8,8 +8,8 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Jika Anda ingin menambahkan konferensi Bitcoin ke situs Jaringan PlanB dan meningkatkan visibilitas untuk acara Anda, tetapi tidak tahu bagaimana? Tutorial ini adalah untuk Anda!
 ![event](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/create-github-account).
-- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) di bagian `resources/conference/`:
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Kunjungi [repositori GitHub dari PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) di bagian `resources/conference/`:
 ![event](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, kemudian pada `Create new file`:
 ![event](assets/03.webp)
@@ -26,59 +26,59 @@ Jika Anda ingin menambahkan konferensi Bitcoin ke situs Jaringan PlanB dan menin
 - Isi file ini dengan informasi tentang konferensi Anda menggunakan template ini:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, Prancis
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, Prancis
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
 deskripsi: Konferensi Bitcoin terbesar di Prancis dengan lebih dari 8.000 peserta setiap tahunnya!
 bahasa:
-    - fr
-    - en
-    - es
-    - it
+  - fr
+  - en
+  - es
+  - it
 tautan:
-    situs web: https://paris.bitcoin.fr/conference
-    url_replay:
-    url_langsung:
+  situs web: https://paris.bitcoin.fr/conference
+  url_replay:
+  url_langsung:
 tag:
-    - Bitcoiner
-    - Umum
-    - Internasional
+  - Bitcoiner
+  - Umum
+  - Internasional
 ```
 ![event](assets/09.webp)
-Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/others/add-builder).
+Jika Anda belum memiliki pengenal "*builder*" untuk organisasi Anda, Anda dapat menambahkannya [dengan mengikuti tutorial lain ini](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 
 - Setelah Anda selesai melakukan perubahan pada file ini, simpan perubahan tersebut dengan mengklik tombol `Commit changes...`:
 ![event](assets/10.webp)

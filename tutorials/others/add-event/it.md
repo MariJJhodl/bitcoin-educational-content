@@ -10,10 +10,10 @@ Se vuoi aggiungere una conferenza su Bitcoin al sito della Rete PlanB e aumentar
 ![evento](assets/01.webp)
 - Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) nella sezione `resources/conference/`:
+- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) nella sezione `resources/conference/`:
 ![evento](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![evento](assets/03.webp)
@@ -30,60 +30,60 @@ https://planb.network/tutorials/others/create-github-account
 - Compila questo file con le informazioni sulla tua conferenza usando questo modello:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Ad esempio, il tuo file YAML potrebbe apparire così:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Parigi, Francia
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: La più grande conferenza su Bitcoin in Francia con oltre 8.000 partecipanti ogni anno!
-  language:
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Parigi, Francia
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: La più grande conferenza su Bitcoin in Francia con oltre 8.000 partecipanti ogni anno!
+language:
 - fr    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - Generale
-    - Internazionale
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - Generale
+  - Internazionale
 ```
 ![evento](assets/09.webp)
 Se la tua organizzazione non ha ancora un identificatore "*builder*", puoi aggiungerlo seguendo questo altro tutorial.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -146,3 +146,4 @@ Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo co
 Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultararlo nella scheda `Pull requests` sul repository GitHub di PlanB Network:
 ![evento](assets/38.webp)
 Grazie mille per il tuo prezioso contributo! :)
+

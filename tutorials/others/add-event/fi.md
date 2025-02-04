@@ -10,10 +10,10 @@ Jos haluat lisätä Bitcoin-konferenssin PlanB-verkon sivustolle ja lisätä nä
 ![event](assets/01.webp)
 - Ensimmäiseksi sinun on oltava GitHub-tili. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) osiossa `resources/conference/`:
+- Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) osiossa `resources/conference/`:
 ![event](assets/02.webp)
 - Klikkaa oikeassa yläkulmassa `Add file` -painiketta, sitten `Create new file`:
 ![event](assets/03.webp)
@@ -30,60 +30,60 @@ https://planb.network/tutorials/others/create-github-account
 - Täytä tämä tiedosto konferenssisi tiedoilla käyttäen tätä mallia:
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 Esimerkiksi, YAML-tiedostosi voisi näyttää tältä:
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Pariisi, Ranska
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conference 2024
-  builder: Paris Bitcoin Conference
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli:
-    - fr
-    - en
-    - es
-    - it
-  linkit:
-    verkkosivusto: https://paris.bitcoin.fr/conference
-    uusintalähetys_url:
-    suora_url:
-  tagit:
-    - Bitcoiner
-    - Yleinen
-    - Kansainvälinen
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Pariisi, Ranska
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conference 2024
+builder: Paris Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Ranskan suurin Bitcoin-konferenssi, jossa on yli 8 000 osallistujaa joka vuosi! kieli
+  - fr
+  - en
+  - es
+  - it
+linkit:
+  verkkosivusto: https://paris.bitcoin.fr/conference
+  uusintalähetys_url:
+  suora_url:
+tagit:
+  - Bitcoiner
+  - Yleinen
+  - Kansainvälinen
 ```
 ![tapahtuma](assets/09.webp)
 Jos organisaatiollasi ei vielä ole "*builder*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 

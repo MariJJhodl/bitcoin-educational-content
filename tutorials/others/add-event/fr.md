@@ -10,16 +10,16 @@ Vous souhaitez ajouter une conférence Bitcoin sur le site de PlanB Network et d
 
 En revanche, si vous souhaitez ajouter les replays d'un conférence qui s'est déjà déroulée, je vous conseille de lire cet autre tutoriel dans lequel on vous explique comment ajouter une nouvelle ressource sur le site.
 
-https://planb.network/tutorials/others/add-conference-replay
+https://planb.network/tutorials/others/contribution/add-conference-replay-3282deba-16ab-4dd9-8357-680902bfb527
 
 
 ![event](assets/01.webp)
 - Tout d'abord, il vous faut avoir un compte sur GitHub. Si vous ne savez pas comment créer un compte, nous avons fait un tutoriel détaillé pour vous accompagner.
 
-https://planb.network/tutorials/others/create-github-account
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) dans la section `resources/conference/` :
+- Rendez-vous sur [le dépôt GitHub de PlanB dédié à la data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) dans la section `resources/conference/` :
 ![event](assets/02.webp)
 - Cliquez en haut à droite sur le bouton `Add file`, puis sur `Create new file` :
 ![event](assets/03.webp)
@@ -36,61 +36,61 @@ https://planb.network/tutorials/others/create-github-account
 - Remplissez ce fichier avec les informations relatives à votre conférence à l'aide de ce template :
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website: 
-    replay_url:
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website: 
+  replay_url:
+  live_url :
+tags: 
+  - 
 ```
 
 Par exemple, votre fichier YAML pourrait ressembler à celui-ci : 
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: Paris, France
-  address_line_2: 
-  address_line_3: 
-  name: Paris Bitcoin Conférence 2024
-  builder: Paris Bitcoin Conférence
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description: The largest Bitcoin conference in France with over 8,000 participants each year!
-  language: 
-    - fr
-    - en
-    - es
-    - it
-  links:
-    website: https://paris.bitcoin.fr/conference
-    replay_url:
-    live_url :
-  tags: 
-    - Bitcoiner
-    - General
-    - International
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: Paris, France
+address_line_2: 
+address_line_3: 
+name: Paris Bitcoin Conférence 2024
+builder: Paris Bitcoin Conférence
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: The largest Bitcoin conference in France with over 8,000 participants each year!
+language: 
+  - fr
+  - en
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - General
+  - International
 ```
 ![event](assets/09.webp)
 Si vous n'avez pas encore d'identifiant "*builder*" pour votre organisation, vous pouvez l'ajouter en suivant cet autre tutoriel.
 
-https://planb.network/tutorials/others/add-builder
+https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -155,5 +155,6 @@ Félicitations ! Votre PR a bien été créée. Un administrateur va maintenant 
 Pensez bien à suivre le progrès de votre PR. Il est possible qu'un administrateur y laisse un commentaire pour demander des informations supplémentaires. Tant que votre PR n'est pas validée, vous pouvez la consulter dans l'onglet `Pull requests` sur le dépôt GitHub de PlanB Network :
 ![event](assets/38.webp)
 Merci beaucoup pour votre précieuse contribution ! :)
+
 
 

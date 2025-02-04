@@ -8,8 +8,8 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 
 如果你想在PlanB Network网站上添加一个比特币会议，以增加你活动的可见性，但不知道如何操作？这个教程就是为你准备的！
 ![event](assets/01.webp)
-- 首先，你需要在GitHub上拥有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/create-github-account)。
-- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference)的`resources/conference/`部分：
+- 首先，你需要在GitHub上拥有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
+- 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference)的`resources/conference/`部分：
 ![event](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
 ![event](assets/03.webp)
@@ -26,59 +26,59 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 - 使用此模板填写有关你会议的信息：
 
 ```yaml
-- start_date:
-  end_date:
-  address_line_1:
-  address_line_2: 
-  address_line_3: 
-  name:
-  builder:
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-  description:
-  language: 
-    - 
-  links:
-    website:
-    replay_url:    
-    live_url :
-  tags: 
-    - 
+start_date:
+end_date:
+address_line_1:
+address_line_2: 
+address_line_3: 
+name:
+builder:
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description:
+language: 
+  - 
+links:
+  website:
+  replay_url:    
+  live_url :
+tags: 
+  - 
 ```
 
 例如，你的YAML文件可能看起来像这样：
 
 ```yaml
-- start_date: 2024-08-15
-  end_date: 2024-08-18
-  address_line_1: 巴黎, 法国
-  address_line_2: 
-  address_line_3: 
-  name: 2024年巴黎比特币会议
-  builder: 巴黎比特币会议
-  type: conference
-  book_online: false
-  book_in_person: false
-  price_dollars: 0
-描述：法国最大的比特币会议，每年有超过8,000名参与者！
-语言：
-    - fr
-    - en
-    - es
-    - it
-链接：
-    网站：https://paris.bitcoin.fr/conference
-    重播网址：
-    直播网址：
-标签：
-    - 比特币爱好者
-    - 通用
-    - 国际
+start_date: 2024-08-15
+end_date: 2024-08-18
+address_line_1: 巴黎, 法国
+address_line_2: 
+address_line_3: 
+name: 2024年巴黎比特币会议
+builder: 巴黎比特币会议
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: 描述：法国最大的比特币会议，每年有超过8,000名参与者！
+language: 
+  - fr
+  - en
+  - es
+  - it
+links:
+  website: https://paris.bitcoin.fr/conference
+  replay_url:
+  live_url :
+tags: 
+  - 比特币爱好者
+  - 通用
+  - 国际
 ```
 ![活动](assets/09.webp)
-如果您的组织还没有一个“*构建者*”标识符，您可以[按照这个教程添加](https://planb.network/tutorials/others/add-builder)。
+如果您的组织还没有一个“*构建者*”标识符，您可以[按照这个教程添加](https://planb.network/tutorials/others/contribution/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。
 
 - 完成对此文件的修改后，点击 `Commit changes...` 按钮保存更改：
 ![活动](assets/10.webp)

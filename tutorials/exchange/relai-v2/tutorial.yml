@@ -1,0 +1,27 @@
+id: 30a9671d-e407-459d-9203-4c3eae15b30e
+
+builder: Relai
+
+tags:
+  - investment
+  - guides
+
+category: centralized
+
+level: beginner
+
+credits:
+  professor: relax-switch
+
+# Proofreading metadata
+
+project_id: 61688787-528b-4274-bdae-ad812fc7f768
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-11
+    urgency: 1
+    contributors_id:
+      - LoicPandul
+    reward: 0.38
+

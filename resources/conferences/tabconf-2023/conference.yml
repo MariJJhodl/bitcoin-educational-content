@@ -1,6 +1,6 @@
 year: 2023
 name: Tab Conf 2023
-builder: TabConf
+builder: TABConf
 location: Atlanta, USA
 language:
   - en
@@ -13,6 +13,7 @@ tags:
   - lightning network
 
 # Proofreading metadata
+project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
 original_language: en
 proofreading:
   - language: en
@@ -20,4 +21,5 @@ proofreading:
     urgency: 0
     contributors_id:
       - Asi0Flammeus
-    reward: 1250
+    reward: 0.05
+
