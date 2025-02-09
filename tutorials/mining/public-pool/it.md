@@ -5,7 +5,7 @@ description: Introduzione a Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** non è una piscina qualunque; è ciò che viene anche definito un **Solo Pool**. Se il tuo miner riesce a minare un blocco, allora raccogli l'intera ricompensa del blocco, che non viene condivisa con altri partecipanti della piscina o con la piscina stessa.
+**Public Pool** non è una pool qualunque; è ciò che viene anche definito un **Solo Pool**. Se il tuo miner riesce a minare un blocco, allora raccogli l'intera ricompensa del blocco, che non viene condivisa con altri partecipanti della piscina o con la piscina stessa.
 
 **Public Pool** fornisce solamente un **template di blocco** per il tuo miner affinché possa svolgere il suo compito senza che tu debba avere un **nodo Bitcoin** e il software che comunica con il tuo miner. Dato che non stai unendo la tua potenza di calcolo con quella di altri partecipanti, le tue possibilità di minare con successo un blocco sono ovviamente molto basse, assomigliando in qualche modo a un sistema di lotteria, dove a volte un individuo fortunato vince il jackpot.
 
