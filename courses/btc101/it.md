@@ -1,10 +1,10 @@
 ---
-name: Il percorso di Bitcoin
-goal: Scoprire Bitcoin e i suoi fondamenti con la sua proposta di valore monetario, i minatori, le transazioni e i portafogli.
+name: Il viaggio di Bitcoin
+goal: Scoprire Bitcoin e i suoi fondamenti con la sua proposta di valore monetario, i miner, le transazioni e i portafogli.
 objectives:
   - Avere una comprensione generale della tecnologia Bitcoin
   - Comprendere come acquistare e proteggere i propri bitcoin
-  - Avere una comprensione generale della tecnologia Blockchain
+  - Avere una comprensione generale della tecnologia alla base della Blockchain
   - Essere familiari con il concetto di Lightning Network
   - Comprendere l'impatto geopolitico e sociale di Bitcoin
 ---
