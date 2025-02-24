@@ -29,6 +29,7 @@ Col tempo imparerete che il sito web da cui scaricare Kleopatra è https://www.g
 ![2](assets/2.webp)
 
 Nella pagina selezionare il bottone verde Download, per iniziare la procedura
+
 ![3](assets/3.webp)
 
 In seguito è prevista la schermata che permette di donare via paypal agli sviluppatori di GPG4Win.
