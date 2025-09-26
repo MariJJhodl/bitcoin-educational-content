@@ -9,7 +9,7 @@ objectives:
   - Inse den geopolitiska och sociala effekten av Bitcoin
 
 ---
-# Ditt första Bitcoin-äventyr
+# Ditt första Bitcoin-äventyr kjdfaidvjas
 
 I den här kursen kommer vi att förklara grunderna i Bitcoin i 25 kapitel, så att du kan förstå denna teknologi på ett enkelt och effektivt sätt. Kursen utforskar grunderna i branschen som helhet, inklusive ämnen som mining, plånböcker, köp-/försäljningsplattformar och mer. Ytterligare utbildningsmaterial kommer att finnas tillgängligt under resan, och vi inbjuder dig också att kolla in "21 Posters" i resursavsnittet efter att du har avslutat denna kurs.
 
